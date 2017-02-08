@@ -1,21 +1,24 @@
 .left{
   float: left;
-  width: 30%;
+  width: 29%;
   background-color: red;
   margin-right: 2.5%;
-  margin-left: 2.5%
+  margin-left: 2.5%;
+  border: solid black  3px;
 }
 .centre{
   display: inline-block;
-  width: 30%;
+  width: 29%;
   background-color:green;
+  border: solid black  3px;
 }
 .right{
   float: right;
-  width: 30%;
+  width: 29%;
   background-color: blue;
   margin-right: 2.5%;
-  margin-left: 2.5%
+  margin-left: 2.5%;
+  border: solid black  3px;
 }
 .middle{
   text-align: center;
@@ -26,4 +29,7 @@ body{
 .header{
   color: gold;
   text-align: center;
+}
+.text{
+  padding: 20px;
 }
